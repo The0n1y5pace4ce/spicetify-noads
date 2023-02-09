@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Hide context menu upgrade button */
+.main-contextMenu-menuItem a[href="https://www.spotify.com/premium/"]
+{
+    display: none !important;
+}
+
+/* remove the upgrade button near username */
+.main-topBar-UpgradeButton {
+    display: none !important;
+}
+
+/* remove ads by adding a placeholder */
+.main-leaderboardComponent-container,
+.ReyA3uE3K7oEz7PTTnAn,
+.X871RxPwx9V0MqpQdMom {
+    display: none !important;
+}
+
+/* remove homepage ads */
+.sponsor-container {
+    display: none !important;
+}
+
+/* remove sponsored playlist */
+.WiPggcPDzbwGxoxwLWFf,
+.DHeG1dij5qSIc9nr0wDj,
+.hx2D0g_ursHte5bm62U2 {
+    display: none !important;
+}
+
+/* hides sidebar scrollbar */
+.os-scrollbar:nth-child(6) .os-scrollbar-handle {
+    visibility: hidden;
+}
+
+/* fix liked songs icon */
+.main-likedSongsButton-likedSongsIcon{
+    color: var(--spice-sidebar);
+    background: var(--spice-text);
+}
+
+/* fix the orientation of the playlist arrows */
+.main-rootlist-expandArrow
+{
+    -webkit-transform: rotate(-90deg) !important;
+    transform: rotate(-90deg) !important;
+}
+.main-rootlist-expandArrow:hover
+{
+    -webkit-transform: rotate(-90deg) !important;
+    transform: rotate(-90deg) !important;
+}
+.qAAhQw9dXNB7DbPgDDxy
+{ 
+    -webkit-transform: rotate(0deg) !important;
+    transform: rotate(0deg) !important;
+}
+.qAAhQw9dXNB7DbPgDDxy:hover
+{
+    -webkit-transform: rotate(0deg) !important;
+    transform: rotate(0deg) !important;
+}
+
+/* align like buttons on songs to the left */
+.main-trackList-rowSectionStart
+{
+    margin-left: 38px !important;
+}
+.main-addButton-button.main-trackList-rowHeartButton,
+.main-addButton-button.main-trackList-rowHeartButton
+{
+    position: absolute !important;left: 48px !important;
+}
+
+/* circular cover art */
+.cover-art .cover-art-image{
+    border-radius: 100% !important;
+}
